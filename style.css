@@ -1,0 +1,291 @@
+/* *{
+    outline: solid 1px rgba(255, 0, 234, 0.982);
+} */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.first-page {
+    background: rgb(76, 76, 231);
+    width: 100%;
+    height: 640px;
+}
+
+.second-page {
+    display: flex;
+    background: #fff;
+    width: 100%;
+    height: 640px;
+}
+
+.Third-page {
+    display: flex;
+    background: whitesmoke;
+    width: 100%;
+    height: 640px;
+}
+
+.fourth-page {
+    display: flex;
+    background: #fff;
+    width: 100%;
+    height: 640px;
+}
+.fifth-page {
+    background: whitesmoke;
+    width: 100%;
+    height: 1199px;
+}
+.ftr{
+    background: grey;
+    width: 100%;
+    height: 600px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.logo img {
+    padding-top: 23px;
+    padding-left: 250px;
+    width: 120px;
+    height: 25px;
+
+}
+
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 180px;
+    width: 30%;
+    height: 34px;
+    padding-top: 15px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    border: none;
+    color: aliceblue;
+    padding-top: 15px;
+}
+.login button {
+    margin-left: 320px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 16px;
+}
+.signup button {
+    background: #23272A;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 16px;
+    margin: 22px 10px;
+    border: none;
+    border-radius: 40px;
+}
+.main {
+    width: 100%;
+}
+
+.main img {
+    width: 100%;
+    padding-top: 138px;
+}
+
+.leftside img {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: -180px;
+    top: 76px;
+}
+
+.rightside img {
+    height: 460px;
+    width: 700px;
+    position: absolute;
+    right: -120px;
+    top: 66px;
+}
+
+.header-content {
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    padding-left: 450px;
+    top: 90px;
+    color: white;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-content p {
+    font-size: 19px;
+}
+
+.download-button button {
+    border: none;
+    font-size: 20px;
+    margin-left: 25px;
+    padding: 20px 36px;
+    border-radius: 30px;
+}
+.button2 {
+    font-size: 20px;
+    border: none;
+    background: black;
+    color: white;
+}
+.img-col {
+    padding-left: 100px;
+}
+.img-col img {
+    padding: 50px;
+}
+.text-col {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 90px;
+    max-width: 400px;
+    padding-left: 100px;
+}
+.text-col h1 {
+    font-size: 55px;
+}
+
+.text-col p {
+    font-size: 21px;
+}
+
+
+.fifthimg img{
+    padding-left: 390px;
+    width: 60%;
+    
+}
+.fifthtex h1{
+    padding-top:120px ;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthtex p{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+}
+.fifthlst{
+    text-align: center;
+}
+.fifthlst h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthlst button{
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 45px;
+    background: #5865f2;
+    border: none;
+}
+.ftr{
+    background: #23272A;
+}
+.IMAGINE{
+    height: 400px;
+    width: 500px;
+    padding-left: 1px;
+}
+.IMAGINE h1{
+    padding-top: 30px;
+    padding-left: 250px;
+    font-size: 45px;
+    font-family: serif  ;
+    font-weight: bold;
+    color: #5865f2;
+}
+.IMAGINE img{
+    padding-left: 250px;
+    width: 25px;
+}
+.englishus{
+    background: #23272A;
+    border: none;
+    color: #fff;
+}
+.IMAGINE .fbimg{
+    padding-left: 236px;
+    width: 200px;
+}
+.tables{
+    padding-top: 70px;
+    padding-left: 70px;
+
+}
+.tables td{
+    color: #fff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 130px;
+}
+.ftrcont{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 10px;
+}
+hr{
+    width: 75%;
+    margin-left: 14%;
+    color: #5865f2;
+    height: 1px;
+    border: 0;
+    background: #5865f2;
+
+}
+.lastlogsign{
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+.ftrlogo{
+    width: 50%;
+    height: 100px;
+}
+.ftrbtn{
+    width: 50%;
+    height: 100px;
+}
+.lastlogsign img{
+    width: 16%;
+    padding-left: 250px;
+}
+.ftrbtn button{
+    color: #fff;
+    background: #5865f2;
+    margin-left: 580px;   
+    padding: 7px 16px;
+    border-radius: 20px;
+}
+.tables .trname{
+    color: #5865f2;
+}
